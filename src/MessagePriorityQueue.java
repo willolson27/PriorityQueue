@@ -75,6 +75,14 @@ public class MessagePriorityQueue {
 	}
 	
 	/**
+	 * retrieves the top most Message in the queue without removing it
+	 * @return topmost element in the queue
+	 */
+	public Message peek() {
+		return mainQ.peek();
+	}
+	
+	/**
 	 * retrieves the main queue housed in this instance of MessagePriorityQueue
 	 * @return the main queue for this instance of the class
 	 */ 
