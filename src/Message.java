@@ -21,7 +21,7 @@ public class Message {
 	
 	/**
 	 * creates a new Message with a given priority level and an arrival time of zero
-	 * @param p - given priorirty level for this message
+	 * @param p - given priority level for this message
 	 */
 	public Message(int p) {
 		priority = p;
