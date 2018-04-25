@@ -15,7 +15,7 @@ public class MPQTester {
 	/**
 	 * tests out the MessagePriorityQueue class by creating five MPQs and running them through
 	 * MessagePriorityQueue's process method
-	 * @param args
+	 * @param args program arguments
 	 */
 	public static void main(String[] args) { 
 		
